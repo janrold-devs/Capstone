@@ -7,9 +7,9 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { CirclePlus } from "lucide-react";
 
 const products = [
-  { name: "Product 1", code: "#0001", type: "Milktea", price: "₱100", quantity: 44, image: "/images/macbook.png" },
-  { name: "Product 2", code: "#0002", type: "Coffee", price: "₱150", quantity: 23, image: "/images/iphone.png" },
-  { name: "Product 3", code: "#0003", type: "Frappe", price: "₱215", quantity: 23, image: "/images/keyboard.png" },
+  { name: "Product 1", category: "#Frappe", type: "Coffee-based", price: "₱100", quantity: 44, image: "/images/macbook.png" },
+  { name: "Product 2", category: "#Milktea", type: "Tea-based", price: "₱150", quantity: 23, image: "/images/iphone.png" },
+  { name: "Product 3", category: "#Milktea", type: "Powder-based", price: "₱215", quantity: 23, image: "/images/keyboard.png" },
 ];
 
 export default function Page() {
@@ -66,7 +66,7 @@ export default function Page() {
                   />
                   Name
                 </div>
-                <div>Code</div>
+                <div>Category</div>
                 <div>Type</div>
                 <div>Price</div>
                 <div>Quantity</div>
@@ -88,7 +88,7 @@ export default function Page() {
                     />
                     {product.name}
                   </div>
-                  <div>{product.code}</div>
+                  <div>{product.category}</div>
                   <div>{product.type}</div>
                   <div>{product.price}</div>
                   <div>{product.quantity}</div>
