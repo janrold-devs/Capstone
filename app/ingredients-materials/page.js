@@ -20,9 +20,9 @@ export default async function Page() {
         </div>
         {/* Main content area */}
         <div className="flex-1 p-4 ">
-          <h1 className="text-2xl font-bold">Inventory Out</h1>
+          <h1 className="text-2xl font-bold">Ingredients & Materials</h1>
           <p className="mt-2 text-gray-600">
-            Manage your inventory outs here.
+            Orders of the customers.
           </p>
         </div>
         {/* Other content can go here */}

@@ -18,14 +18,15 @@ export default async function Page() {
           <SidebarTrigger />
           <Header />
         </div>
+
         {/* Main content area */}
         <div className="flex-1 p-4 ">
-          <h1 className="text-2xl font-bold">Employees Dashboard</h1>
+          <h1 className="text-2xl font-bold">Stock In</h1>
           <p className="mt-2 text-gray-600">
-            Monitor your employees or check attendance.
+            Welcome to your dashboard! Here you can manage your settings and view your data.
           </p>
         </div>
-        {/* Other content can go here */}
+        
       </main>
     </SidebarProvider>
   );

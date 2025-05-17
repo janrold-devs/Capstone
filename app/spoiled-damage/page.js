@@ -20,8 +20,11 @@ export default async function Page() {
         </div>
 
         {/* Main content area */}
-        <div className="flex-1 p-4 bg-[#cadceb]">
-          <h1 className="text-2xl font-bold justify-center flex">Dashboard</h1>
+        <div className="flex-1 p-4 ">
+          <h1 className="text-2xl font-bold">Spoiled & Damage</h1>
+          <p className="mt-2 text-gray-600">
+            Welcome to your dashboard! Here you can manage your settings and view your data.
+          </p>
         </div>
         
       </main>
